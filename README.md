@@ -4,6 +4,8 @@ I have an iMac from 2009 that needs special care when formatting. For example, t
 **Remember**: Hold `Alt` at startup to choose where to boot from.  
 
 # Xubuntu
+https://xubuntu.org/  
+
 ```
 sudo apt update;
 sudo apt upgrade;
