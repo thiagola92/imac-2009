@@ -1,1 +1,19 @@
-# imac-2009
+# iMac
+I have an iMac from 2009 that needs special care when formatting. For example, the wifi driver always needs to be found & installed.  
+
+**Remember**: Hold `Alt` at startup to choose where to boot from.  
+
+# Xubuntu
+```
+sudo apt update;
+sudo apt upgrade;
+sudo apt install firmware-b43-installer;
+sudo apt install linux-firmware;
+reboot;
+```
+
+### References
+- https://askubuntu.com/a/60395/934458  
+- Download packages `firmware-b43-installer` & `linux-firmware`:
+  - https://packages.ubuntu.com/search?suite=default&section=all&arch=any&keywords=firmware-b43-installer&searchon=names
+  - https://packages.ubuntu.com/search?suite=default&section=all&arch=any&keywords=linux-firmware&searchon=names
